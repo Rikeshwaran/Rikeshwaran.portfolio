@@ -13,6 +13,8 @@ import Internship from "./components/Body/Internship";
 import VolunteerExtracurricularActivities from "./components/Body/VolunteerExtracurricularActivities";
 import Footer from "./components/Footer/Footer";
 import ContactForm from "./components/ContactForm/ContactForm";
+import WorkExperience from "./components/Body/WorkExperience";
+import WorkExperienceModal from "./components/Body/WorkExperienceModal";
 
 /** Cursor & particles are global like your original HTML */
 function Cursor() {
@@ -269,6 +271,13 @@ function HomePage() {
   const openModal = useCallback((image, text, link = "") => {
     setModal({ show: true, image, text, link });
   }, []);
+  const openWorkExperienceModal = useCallback((experience) => {
+    setModal({ show: true, experience });
+  }, []);
+  const closeWorkExperienceModal = useCallback(
+    () => setModal((m) => ({ ...m, show: false })),
+    []
+  );
   const closeModal = useCallback(() => setModal((m) => ({ ...m, show: false })), []);
 
   return (
@@ -281,10 +290,11 @@ function HomePage() {
         <Career />
         <Education />
         <Skills />
+        <WorkExperience onOpenWorkExperience={openWorkExperienceModal} />
+        <Internship onOpenCertificate={openModal} />
         {/* Pass openModal to components that need it */}
         <Projects onOpenCertificate={openModal} />
         <Achievements onOpenCertificate={openModal} />
-        <Internship onOpenCertificate={openModal} />
         <VolunteerExtracurricularActivities />
       </main>
       <Footer />
@@ -294,6 +304,11 @@ function HomePage() {
         text={modal.text}
         link={modal.link}
         onClose={closeModal}
+      />
+      <WorkExperienceModal
+        show={modal.show}
+        experience={modal.experience}
+        onClose={closeWorkExperienceModal}
       />
       <ScrollEffects />
     </>

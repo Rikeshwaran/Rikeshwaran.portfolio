@@ -271,7 +271,8 @@ header {
 .education-card,
 .project-card,
 .cert-card,
-.internship-card {
+.internship-card,
+.workexperience-card {
   background: var(--darker-color);
   color: var(--light-color);
   padding: 30px;
@@ -286,14 +287,16 @@ header {
 .education-card:hover,
 .project-card:hover,
 .cert-card:hover,
-.internship-card:hover {
+.internship-card:hover ,
+.workexperience-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 15px 30px rgba(99, 102, 241, 0.25);
 }
 
 .education-card h4,
 .project-card h4,
-.internship-card h4 {
+.internship-card h4,
+.workexperience-card h4{
   color: var(--primary-color);
   margin-bottom: 15px;
 }
@@ -353,7 +356,8 @@ header {
 
 /* Certificate Cards */
 .cert-card,
-.internship-card {
+.internship-card,
+.workexperience-card {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -362,7 +366,8 @@ header {
 }
 
 .cert-card i,
-.internship-card i {
+.internship-card i,
+.workexperience-card i {
   font-size: 40px;
   color: var(--primary-color);
   margin-bottom: 15px;
