@@ -22,7 +22,7 @@ function WorkExperience({ onOpenWorkExperience }) {
           >
             <i className="fas fa-briefcase"></i>
             <h4>Software Developer</h4>
-            <p>April 2023 - Present</p>
+            <p>April 2025 - Present</p>
             <br />
             <h5>Younderbots OPC Private Limited</h5>
           </div>
