@@ -20,8 +20,9 @@ function WorkExperienceModal({ show, experience, onClose }) {
     <div
       id="workExperienceModal"
       className="modal"
-      style={{ display: show ? "block" : "none" }}
+      style={{ display: show ? "block" : "none" , backgroundColor: "#00000061"}}
       ref={wrapperRef}
+
     >
       <span className="close-btn" onClick={onClose}>
         &times;

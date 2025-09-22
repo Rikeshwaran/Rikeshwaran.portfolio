@@ -1,10 +1,20 @@
 :root {
-  --primary-color: #7e80ff;
-  --secondary-color: #51485a;
-  --dark-color: #121212;
-  --darker-color: #1a1a1a;
-  --light-color: #ffffff;
-  --muted-text: #b0b0b0;
+  --primary-color: #ff0000;  
+  --secondary-color: #500d0d; 
+  
+  
+  --background-color: #F9FAFB;   
+  --heading-color: #1F2937;     
+  --text-color: #374151;         
+  --muted-text: #6B7280;     
+  --border-color: #E5E7EB; 
+  
+  
+  --dark-color : #000000c8;
+  --light-color : #ffffff;
+
+
+  --darker-color:  #f4f7a923;
 }
 
 html {
@@ -19,8 +29,8 @@ input:hover, textarea:hover, button:hover, .home-btn:hover {
 }
 body {
   font-family: 'Poppins', sans-serif;
-  background: var(--dark-color);
-  color: var(--light-color);
+  background: var(--light-color);
+  color: var(--dark-color);
   overflow-x: hidden;
   cursor: none;
 }
@@ -77,6 +87,7 @@ header {
 .header-buttons {
   animation: fadeInDown 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards 0.6s;
   opacity: 0;
+
 }
 
 .profile-pic {
@@ -109,6 +120,7 @@ header {
 }
 
 @media (max-width: 768px) {
+  
   .header-content {
     flex-direction: column;
     text-align: center;
@@ -207,7 +219,7 @@ header {
 .navbar-brand {
   font-weight: 700;
   font-size: 1.5rem;
-  color: var(--light-color);
+  color: #fff;
 }
 
 .nav-link {
@@ -220,8 +232,7 @@ header {
 }
 
 .nav-link:hover {
-  background-color:var(--light-color) ;
-  color: rgb(35, 13, 112);
+  color: rgb(255, 255, 255);
 }
 
 .navbar-toggler {
@@ -254,7 +265,7 @@ header {
 
 .section-content {
   background: var(--darker-color);
-  color: var(--light-color);
+  color: var(--dark-color);
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -274,7 +285,7 @@ header {
 .internship-card,
 .workexperience-card {
   background: var(--darker-color);
-  color: var(--light-color);
+  color: var(--dark-color);
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -290,7 +301,7 @@ header {
 .internship-card:hover ,
 .workexperience-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(99, 102, 241, 0.25);
+  box-shadow: 0 15px 30px rgba(99, 101, 241, 0.633);
 }
 
 .education-card h4,
@@ -325,7 +336,7 @@ header {
 
 .skill-header span {
   font-weight: 600;
-  color: var(--light-color);
+  color: var(--dark-color);
 }
 
 .progress {
@@ -390,7 +401,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: var(--darker-color);
+  background: var(--dark-color);
   color: var(--light-color);
   padding: 30px;
   border-radius: 15px;
@@ -424,8 +435,8 @@ header {
 .close-btn {
   position: absolute;
   top: 30px;
-  right: 30px;
-  color: var(--light-color);
+  right: 40px;
+  color: #fff;
   font-size: 30px;
   font-weight: bold;
   cursor: pointer;
@@ -446,7 +457,7 @@ header {
 
 /* Footer */
 footer {
-  background: #0a0a0a;
+  background: var(--dark-color);
   color: var(--light-color);
   padding: 60px 0 30px;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
@@ -799,32 +810,41 @@ footer i {
 ::-webkit-scrollbar-track {
   background-color: black;
 }
-
 .scroll-to-top {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   border: none;
   border-radius: 50%;
-  background: #6366f1; /* violet */
-  color: white;
+  background: var(--primary-color);
+  color: var(--light-color);
   font-size: 22px;
   font-weight: bold;
   cursor: pointer;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.4s ease, visibility 0.4s;
   z-index: 99;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-}
-
-.scroll-to-top:hover {
-  background: #4f46e5;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+  
+  /* Animation */
+  transform: translateY(30px) scale(0.8);
+  transition: 
+    opacity 0.4s ease, 
+    visibility 0.4s ease, 
+    transform 0.4s ease;
 }
 
 .scroll-to-top.show {
   opacity: 1;
   visibility: visible;
+  transform: translateY(0) scale(1);
+}
+
+.scroll-to-top:hover {
+  background: var(--secondary-color);
+  color: var(--light-color);
+  transform: scale(1.2) rotate(360deg);
+  transition: transform 0.6s ease , background 0.3s ease;
 }

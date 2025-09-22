@@ -152,15 +152,22 @@ function CertificateModal({ show, image, text, link, onClose }) {
         &times;
       </span>
       <div className="modal-content-wrapper">
-        {/* ✅ Only render the image if it exists */}
-        {image && (
+        {image && image.endsWith(".pdf") ? (
+          <iframe
+            src={image}
+            title="Certificate PDF"
+            className="modal-content"
+            style={{ width: "100%", height: "80vh", border: "none" }}
+          />
+        ) : image ? (
           <img
             className="modal-content"
             id="certificateImage"
             src={image}
             alt="Certificate"
           />
-        )}
+        ) : null}
+
 
         <div className="certificate-info">
           {text && <p id="certificateText">{text}</p>}
@@ -172,7 +179,7 @@ function CertificateModal({ show, image, text, link, onClose }) {
               rel="noreferrer"
               className="btn btn-primary mt-3"
             >
-              View Project
+              View 
             </a>
           )}
         </div>

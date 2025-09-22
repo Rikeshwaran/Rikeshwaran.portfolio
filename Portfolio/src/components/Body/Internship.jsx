@@ -1,4 +1,8 @@
 import React from "react";
+import codehuntersFSD from "../../assets/Internship/codehunters-internship.png";
+import novitecAI from "../../assets/Internship/novitechai inter_page-0001.jpg";
+import novitechFSD from "../../assets/Internship/novitech-internship_page-0001.jpg";
+import velgaFSD from "../../assets/Internship/velga-internship.png";
 
 export default function Internship({ onOpenCertificate }) {
   return (
@@ -8,7 +12,7 @@ export default function Internship({ onOpenCertificate }) {
         <div className="col-md-6 mb-4">
           <div
             className="internship-card"
-            onClick={() => onOpenCertificate("/images/Document from ~ འìҟҽʂհ.png", "Practiced Full Stack Development only at basic level")}
+            onClick={() => onOpenCertificate(codehuntersFSD, "Practiced Full Stack Development only at basic level")}
           >
             <i className="fas fa-briefcase"></i>
             <h4>CODE HUNTERS</h4>
@@ -19,18 +23,29 @@ export default function Internship({ onOpenCertificate }) {
         <div className="col-md-6 mb-4">
           <div
             className="internship-card"
-            onClick={() => onOpenCertificate("/images/Document from ~ འìҟҽʂհ.png", "Practiced Full Stack Development only at basic level")}
+            onClick={() => onOpenCertificate(novitechFSD, "Practiced Full Stack Development only at basic level")}
           >
             <i className="fas fa-briefcase"></i>
             <h4>Novitech R&amp;D private limited</h4>
             <p>Internship for FULL STACK DEVELOPMENT in NoviTech R&amp;D Pvt Ltd using MERN stack</p>
           </div>
         </div>
+        <div className="col-md-6 mb-4">
+          <div
+            className="internship-card"
+            onClick={() => onOpenCertificate(novitecAI, "Practiced Artificial Intelligence basics , prompting etc")}
+          >
+            <i className="fas fa-briefcase"></i>
+            <h4>Novitech R&amp;D private limited</h4>
+            <p>Internship for Artificial Intelligence in NoviTech R&amp;D Pvt Ltd using MERN stack</p>
+          </div>
+        </div>
+
 
         <div className="col-md-6 mb-4">
           <div
             className="internship-card"
-            onClick={() => onOpenCertificate("/images/Screenshot 2025-04-18 150144.png")}
+            onClick={() => onOpenCertificate(velgaFSD)}
           >
             <i className="fas fa-briefcase"></i>
             <h4>VELGA CREATIVE POWERHOUSE</h4>

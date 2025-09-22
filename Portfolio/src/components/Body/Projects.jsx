@@ -4,7 +4,7 @@ export default function Projects({ onOpenCertificate }) {
   return (
     <section id="projects" className="mb-5">
       <h2 className="section-title">Projects</h2>
-      <h6 className="section-title">Real time Projects Cannot be shared</h6>
+      <h6 className="section-title">Real time Projects Cannot be shared here, To get sample Projects : <a  className="btn m-1" href="#contact">click here </a></h6>
 
       <div className="row">
         <div className="col-lg-6 mb-4">
@@ -12,19 +12,19 @@ export default function Projects({ onOpenCertificate }) {
             className="project-card"
             onClick={() =>
               onOpenCertificate(
-                "/images/My blog - Google Chrome 26-03-2025 15_07_11.png",
+                "",
                 "Developed with the help of AI",
-                "https://github.com/Rikeshwaran/login-page.git"
+                "https://github.com/Rikeshwaran/user-data-mangement-with-profile.git"
               )
             }
           >
-            <h4>Login page using MERN stack - sample</h4>
-            <p>Developed a secure login page using MERN stack, ensuring user authentication and data security.</p>
+            <h4>User Data Management - sample</h4>
+            <p>Developed a User Data Management System containing details of Users.</p>
             <div className="tech-used">
               <span className="badge bg-primary">MongoDB</span>
-              <span className="badge bg-info">Express</span>
-              <span className="badge bg-warning">React</span>
-              <span className="badge bg-success">Node.js</span>
+              <span className="badge bg-info">python(FastAPI)</span>
+              <span className="badge bg-warning">HTML / CSS</span>
+              <span className="badge bg-success">js</span>
             </div>
           </div>
         </div>
@@ -34,22 +34,42 @@ export default function Projects({ onOpenCertificate }) {
             className="project-card"
             onClick={() =>
               onOpenCertificate(
-                "/images/HMS - Google Chrome 27-03-2025 16_23_15.png",
+                "",
                 "Developed with the help of AI",
-                "https://github.com/Rikeshwaran/simple-Hospital-Management-system.git"
+                "https://github.com/Rikeshwaran/adminDashboard.git"
               )
             }
           >
-            <h4>Simple Hospital Management System - sample</h4>
-            <p>Developed a Simple Hospital Management System containing details of Appointment, Patient and Doctor.</p>
+            <h4>Project Management System - sample</h4>
+            <p>Developed a Project Management System containing details of Projects.</p>
             <div className="tech-used">
-              <span className="badge bg-primary">HTML/CSS</span>
-              <span className="badge bg-secondary">JavaScript</span>
-              <span className="badge bg-info">PHP</span>
+              <span className="badge bg-primary">MongoDB</span>
+              <span className="badge bg-info">python(FastAPI)</span>
+              <span className="badge bg-warning">HTML / CSS</span>
+              <span className="badge bg-success">js</span>
             </div>
           </div>
         </div>
-
+        <div className="col-lg-6 mb-4">
+          <div
+            className="project-card"
+            onClick={() =>
+              onOpenCertificate(
+                "",
+                "4 Templates included",
+                "https://github.com/Rikeshwaran/resume-builder-.git"
+              )
+            }
+          >
+            <h4>Resume Builder</h4>
+            <p>Developed a Resume Builder which can be used to create resumes.</p>
+            <div className="tech-used">
+              <span className="badge bg-info">python(FastAPI)</span>
+              <span className="badge bg-warning">HTML / CSS</span>
+              <span className="badge bg-success">js</span>
+            </div>
+          </div>
+        </div>
         <div className="col-lg-6 mb-4">
           <div
             className="project-card"

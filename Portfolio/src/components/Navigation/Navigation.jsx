@@ -1,5 +1,4 @@
 import React from "react";
-import resume from "../../assets/Resume/RIKESHWARAN_M_RESUME.pdf";
 
 export default function Navigation() {
   return (
@@ -19,16 +18,14 @@ export default function Navigation() {
 
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
-              <a className="nav-link" href={resume} download="RIKESHWARAN M RESUME">Resume</a>
-            </li>
             <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
-            <li className="nav-item"><a className="nav-link" href="#career">Career</a></li>
             <li className="nav-item"><a className="nav-link" href="#education">Education</a></li>
             <li className="nav-item"><a className="nav-link" href="#skills">Skills</a></li>
+            <li className="nav-item"><a className="nav-link" href="#workexperience">Experience</a></li>
+            <li className="nav-item"><a className="nav-link" href="#internship">Internship</a></li>
             <li className="nav-item"><a className="nav-link" href="#projects">Projects</a></li>
             <li className="nav-item"><a className="nav-link" href="#achievements">Achievements</a></li>
-            <li className="nav-item"><a className="nav-link" href="#internship">Internship</a></li>
+            <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
