@@ -289,7 +289,7 @@ function HomePage() {
 
   return (
     <>
-      <ParticleBackground />
+      {/* <ParticleBackground /> */}
       <Header />
       <Navigation />
       <main className="container py-5">
