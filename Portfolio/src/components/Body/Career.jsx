@@ -9,7 +9,7 @@ export default function Career() {
           To secure a challenging position in a reputable organization to expand my
           learning, knowledge, and skills. I aim to contribute towards the development
           of technology while growing professionally in the software industry.
-          My objective is to specialize in AI, ML, and web technologies, contributing
+          My objective is to specialize in Software Development, AI, ML, and web technologies, contributing
           innovative solutions that solve real-world problems.
         </p>
       </div>

@@ -7,11 +7,11 @@ export default function About() {
       <div className="section-content">
         <p>
           I'm a passionate computer science graduate with strong problem-solving skills
-          and a deep interest in software development, data analytics, and AI.
+          and a deep interest in software development, and AI.
           My vision is to create impactful solutions that leverage technology for the betterment of society.
           An enthusiastic learner with good communication and team collaboration skills.
         </p>
       </div>
     </section>
-  );
+  );  
 }
