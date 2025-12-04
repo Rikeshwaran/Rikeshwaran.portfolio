@@ -25,7 +25,7 @@ export default function Navigation() {
             <li className="nav-item"><a className="nav-link" href="#internship">Internship</a></li>
             <li className="nav-item"><a className="nav-link" href="#projects">Projects</a></li>
             <li className="nav-item"><a className="nav-link" href="#achievements">Achievements</a></li>
-            <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
+            <li className="nav-item"><a className="nav-link" href="#footer-contact">Contact</a></li>
           </ul>
         </div>
       </div>
