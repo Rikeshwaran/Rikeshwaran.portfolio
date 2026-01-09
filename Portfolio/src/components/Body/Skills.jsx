@@ -79,6 +79,15 @@ export default function Skills() {
               <div className="progress-bar bg-secondary" role="progressbar" style={{ width: "50%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" />
             </div>
           </div>
+          <div className="skill mb-4">
+            <div className="skill-header">
+              <i className="fas fa-database"></i>
+              <span>C Language</span>
+            </div>
+            <div className="progress">
+              <div className="progress-bar bg-secondary" role="progressbar" style={{ width: "50%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" />
+            </div>
+          </div>
         </div>
       </div>
     </section>
