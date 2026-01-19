@@ -16,7 +16,7 @@ export default function Header() {
 
             </div>
           </div>
-          <img src="/images/your-photo.jpg" alt="Profile Photo" className="profile-pic" />
+          {/* <img src="/images/your-photo.jpg" alt="Profile Photo" className="profile-pic" /> */}
         </div>
       </div>
     </header>
