@@ -8,12 +8,12 @@ export default function Achievements({ onOpenCertificate }) {
     <section id="achievements" className="mb-5">
       <h2 className="section-title">Achievements &amp; Certifications</h2>
       <div className="row">
-        <div className="col-md-6 col-lg-4 mb-4">
+        {/* <div className="col-md-6 col-lg-4 mb-4">
           <div className="cert-card" onClick={() => onOpenCertificate("", "Infosys Springboard","https://drive.google.com/drive/folders/1dZN3_2PYQED_0QP5ZlB_1Ng_yOW9TGnW?usp=drive_link")}>
             <i className="fas fa-certificate"></i>
             <h5>Infosys Springboard</h5>
           </div>
-        </div>
+        </div> */}
         <div className="col-md-6 col-lg-4 mb-4">
           <div className="cert-card" onClick={() => onOpenCertificate(htmlTraining, "HTML Training" )}>
             <i className="fas fa-certificate"></i>

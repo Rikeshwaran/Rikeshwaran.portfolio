@@ -4,10 +4,10 @@ export default function Projects({ onOpenCertificate }) {
   return (
     <section id="projects" className="mb-5">
       <h2 className="section-title">Projects</h2>
-      <h6 className="section-title">Real time Projects Cannot be shared here, To get sample Projects : <a  className="btn m-1" href="#contact">click here </a></h6>
+      <h6 className="section-title">To know more <a  className="btn m-1" href="#footer-contact">click here </a></h6>
 
       <div className="row">
-        <div className="col-lg-6 mb-4">
+        {/* <div className="col-lg-6 mb-4">
           <div
             className="project-card"
             onClick={() =>
@@ -87,7 +87,7 @@ export default function Projects({ onOpenCertificate }) {
               <span className="badge bg-secondary">Arduino</span>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="col-lg-6 mb-4">
           <div

@@ -53,11 +53,11 @@ export default function Internship({ onOpenCertificate }) {
           </div>
         </div>
 
-        <div className="col-md-6 mb-4">
+        {/* <div className="col-md-6 mb-4">
           <div className="internship-card" onClick={() => onOpenCertificate("")}>
             <p>Internship for FULL STACK DEVELOPMENT with React, Vite, Bootstrap, FastAPI, GraphQL, SQL, MongoDB.</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
