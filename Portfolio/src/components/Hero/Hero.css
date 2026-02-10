@@ -1,0 +1,155 @@
+.hero-section {
+  padding-top: 100px;
+  background: linear-gradient(135deg, var(--background) 0%, var(--surface) 100%);
+  position: relative;
+  overflow-x: hidden;
+}
+
+.hero-visual {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+}
+
+.hero-graphic {
+  width: min(380px, 90vw);
+  height: min(380px, 90vw);
+  margin: 0 auto;
+  position: relative;
+}
+
+.gradient-circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(
+    var(--primary),
+    var(--secondary),
+    var(--accent),
+    var(--primary)
+  );
+  padding: 10px;
+  animation: rotate 20s linear infinite;
+}
+
+.inner-circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: var(--surface);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: var(--gradient-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+  box-shadow: 0 20px 40px rgba(99, 102, 241, 0.3);
+}
+
+.floating-element {
+  position: absolute;
+  z-index: 10;
+}
+
+.floating-icon {
+  width: 56px;
+  height: 56px;
+  font-size: 1.4rem;
+  animation: float 6s ease-in-out infinite;
+}
+
+.scroll-indicator-inside {
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  cursor: pointer;
+}
+
+.mouse {
+  width: 28px;
+  height: 44px;
+  border: 2px solid var(--text);
+  border-radius: 14px;
+  margin: 0 auto 6px;
+  position: relative;
+}
+
+.wheel {
+  width: 4px;
+  height: 10px;
+  background: var(--primary);
+  border-radius: 2px;
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: scroll 2s infinite;
+}
+
+.arrow {
+  text-align: center;
+  animation: bounce 2s infinite;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes scroll {
+  from { opacity: 1; transform: translateX(-50%) translateY(0); }
+  to { opacity: 0; transform: translateX(-50%) translateY(18px); }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding-top: 80px;
+  }
+
+  .avatar {
+    width: 150px;
+    height: 150px;
+    font-size: 3.2rem;
+  }
+}
+.hero-section {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.hero-graphic {
+  padding: 2px;
+  box-sizing: border-box;
+}
+.hero-container {
+  min-height: calc(100vh - 100px);
+}
+
+.animate-pulse-slow {
+  animation: pulseSlow 2.5s ease-in-out infinite;
+}
+
+@keyframes pulseSlow {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
+
