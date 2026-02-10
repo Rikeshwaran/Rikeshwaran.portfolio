@@ -120,7 +120,7 @@ body {
   left: 0;
   width: 6px;
   height: 6px;
-  background: #ffffff;
+  background: var(--text);
   border-radius: 50%;
   pointer-events: none;
   z-index: 9999;
@@ -134,7 +134,7 @@ body {
   left: 0;
   width: 32px;
   height: 32px;
-  border: 2px solid rgba(255, 255, 255, 0.6);
+  border: 2px solid var(--text);
   border-radius: 50%;
   pointer-events: none;
   z-index: 9998;
