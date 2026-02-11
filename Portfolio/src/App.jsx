@@ -115,7 +115,7 @@ function App() {
           <div className="row align-items-center">
             <div className="col-lg-4 mb-4 mb-lg-0">
               <h3 className="fw-bold gradient-text">Rikeshwaran M</h3>
-              <p className=" mb-0">Full Stack Developer & AI Enthusiast</p>
+              <p className=" mb-0">Full Stack Developer || Software Developer</p>
             </div>
             <div className="col-lg-4 mb-4 mb-lg-0">
               <div className="social-links d-flex justify-content-center gap-3">
@@ -137,9 +137,9 @@ function App() {
             </div>
             <div className="col-lg-4 text-lg-end">
               <p className=" mb-0">
-                &copy; {new Date().getFullYear()} Rikeshwaran M. All rights reserved.
+                &copy; {new Date().getFullYear()}, Rikeshwaran M.
               </p>
-              <p className=" mb-0">Made using React</p>
+              <p className=" mb-0">Made using React.</p>
             </div>
           </div>
         </div>

@@ -26,8 +26,10 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <h6 className="text-primary mb-3 fw-semibold animate-pulse-slow">
-                <i className="bi bi-code-slash me-2"></i>Full Stack Developer
+              <h6 className="text-primary mb-3 fw-semibold animate-pulse-slow d-flex ms-5">
+                <div className="status-indicator ms-3 me-3 mt-2"></div>
+                <h5>Open to work </h5>
+                
               </h6>
 
 
@@ -95,7 +97,7 @@ const Hero = () => {
                 <div className="gradient-circle">
                   <div className="inner-circle">
                     <div className="avatar">
-                      <span>RM</span>
+                      <span>Developer</span>
                     </div>
 
                     <div
