@@ -39,7 +39,7 @@ const About = () => {
         >
           <h6 className="section-subtitle text-primary mb-2">About Me</h6>
           <h2 className="section-title fw-bold display-5">Get to Know Me</h2>
-          <p className="section-description text-muted mx-auto">
+          <p className="section-description mx-auto">
             Passionate developer crafting digital solutions with modern technologies
           </p>
         </motion.div>

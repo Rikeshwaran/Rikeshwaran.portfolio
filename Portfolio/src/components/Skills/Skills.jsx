@@ -90,9 +90,11 @@ const Skills = () => {
         >
           <h6 className="section-subtitle text-primary mb-2">Skills & Expertise</h6>
           <h2 className="section-title fw-bold display-5">Technical Proficiencies</h2>
-          <p className="section-description text-muted mx-auto">
-            Mastery across the full stack development spectrum
+          <p className="section-description mx-auto">
+             Working with a wide range of technologies and tools <br />
+             Software development || Full Stack Development
           </p>
+          
         </motion.div>
 
         {/* Category Tabs */}

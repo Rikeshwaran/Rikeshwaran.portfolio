@@ -81,7 +81,7 @@ const Education = () => {
         >
           <h6 className="section-subtitle text-primary mb-2">Education</h6>
           <h2 className="section-title fw-bold display-5">Academic Journey</h2>
-          <p className="section-description text-muted mx-auto">
+          <p className="section-description mx-auto">
             Building a strong foundation through quality education
           </p>
         </motion.div>
