@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { motion, setTarget } from "framer-motion";
 import "./Hero.css";
 import resumePdf from "../../assets/Resume/resume.pdf";
 
@@ -10,10 +10,10 @@ const Hero = () => {
   };
 
   const floatingElements = [
-    { icon: "bi-code-slash", color: "#6366f1", delay: 0 },
-    { icon: "bi-cpu", color: "#8b5cf6", delay: 0.4 },
-    { icon: "bi-database", color: "#06b6d4", delay: 0.8 },
-    { icon: "bi-gear", color: "#3b82f6", delay: 1.2 }
+    { icon: "bi-code-slash", color: "#6366f1",target : "about", delay: 0 },
+    { icon: "bi-cpu", color: "#8b5cf6", delay: 0.4,target : "skills" },
+    { icon: "bi-database", color: "#06b6d4", delay: 0.8 ,target : "experience"},
+    { icon: "bi-rocket-takeoff", color: "#f43f5e", delay: 1.6 ,target : "contact"},
   ];
 
   return (
@@ -81,8 +81,12 @@ const Hero = () => {
                   className="floating-element"
                   style={{
                     top: `${15 + i * 20}%`,
-                    left: `${15 + i * 15}%`
+                    left: `${15 + i * 15}%`,
+                    cursor: "pointer"
                   }}
+                  onClick={() => scrollToSection(el.target)}
+                  whileHover={{ scale: 1.15 }}
+                  whileTap={{ scale: 0.95 }}
                 >
                   <div
                     className="floating-icon rounded-circle d-flex align-items-center justify-content-center"

@@ -95,9 +95,9 @@ function App() {
       <Header theme={theme} toggleTheme={toggleTheme} />
       <Hero />
       <About />
-      <Education />
       <Skills />
       <Experience />
+      <Education />
       <Projects />
       <Achievements />
       <Contact />

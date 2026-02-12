@@ -12,7 +12,7 @@ const Header = ({ theme, toggleTheme }) => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
       
-      const sections = ['about', 'education', 'skills', 'experience', 'projects', 'achievements', 'contact'];
+      const sections = ['about', 'skills', 'experience','education', 'projects', 'achievements', 'contact'];
       const currentSection = sections.find(section => {
         const element = document.getElementById(section);
         if (element) {
@@ -39,9 +39,9 @@ const Header = ({ theme, toggleTheme }) => {
 
   const navItems = [
     { id: 'about', label: 'About', icon: 'bi-person' },
-    { id: 'education', label: 'Education', icon: 'bi-mortarboard' },
     { id: 'skills', label: 'Skills', icon: 'bi-code-slash' },
     { id: 'experience', label: 'Experience', icon: 'bi-briefcase' },
+    { id: 'education', label: 'Education', icon: 'bi-mortarboard' },
     { id: 'projects', label: 'Projects', icon: 'bi-laptop' },
     { id: 'achievements', label: 'Achievements', icon: 'bi-trophy' },
     { id: 'contact', label: 'Contact', icon: 'bi-envelope' }
