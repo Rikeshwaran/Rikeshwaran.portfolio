@@ -63,12 +63,6 @@ const Contact = () => {
 
   const contactInfo = [
     {
-      icon: 'bi-geo-alt-fill',
-      title: 'Location',
-      details: 'Chennimalai, Perundurai, Erode, India - 638051',
-      color: '#8B5CF6'
-    },
-    {
       icon: 'bi-envelope-fill',
       title: 'Email',
       details: 'rikeshrikey@gmail.com',
@@ -334,7 +328,7 @@ const Contact = () => {
             </motion.div>
 
             {/* Map */}
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -348,7 +342,7 @@ const Contact = () => {
                   Available for remote work worldwide
                 </p>
               </div>
-            </motion.div>
+            </motion.div> */}
           </div>
         </div>
       </div>

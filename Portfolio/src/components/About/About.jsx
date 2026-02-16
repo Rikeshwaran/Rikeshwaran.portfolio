@@ -98,7 +98,7 @@ const About = () => {
                   <div className="stat-icon mb-3">
                     <i className={`bi ${stat.icon} fs-2`}></i>
                   </div>
-                  <h3 className="stat-value fw-bold mb-2">{stat.value}</h3>
+                  <h3 className="stat-icon fw-bold mb-2">{stat.value}</h3>
                   <p className="stat-label mb-0">{stat.label}</p>
                 </motion.div>
               ))}
@@ -116,7 +116,7 @@ const About = () => {
                 {[
                   { icon: 'bi-envelope', label: 'Email', value: 'rikeshrikey@gmail.com', link: 'mailto:rikeshrikey@gmail.com' },
                   { icon: 'bi-phone', label: 'Phone', value: '+91 9629040311', link: 'tel:+919629040311' },
-                  { icon: 'bi-geo-alt', label: 'Location', value: 'Chennimalai, Erode, India' },
+                  { icon: 'bi-whatsapp', label: 'WhatsApp', value: 'Chat on WhatsApp', link: 'https://wa.me/919629040311' },
                   { icon: 'bi-linkedin', label: 'LinkedIn', value: 'rikeshwaran-m', link: 'https://linkedin.com/in/rikeshwaran-m' }
                 ].map((info, index) => (
                   <div className="col-md-6" key={index}>

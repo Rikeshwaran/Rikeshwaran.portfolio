@@ -68,7 +68,7 @@ const Header = ({ theme, toggleTheme }) => {
                 scrollToSection('hero');
               }}
             >
-              RIKESH<span className="text-primary">WARAN</span>
+              RIKESH<span className="text-primary">WARAN</span> M
             </motion.a>
             <div className="d-flex align-items-center gap-3 me-2 toggle-button" >
                 <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
