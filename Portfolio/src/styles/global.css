@@ -7,12 +7,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-:root {
+/* blue*/
+/* :root {
   --font-primary: 'Inter', sans-serif;
   --font-secondary: 'Poppins', sans-serif;
   
-  /* Light Theme */
   --primary-light: #6366f1;
   --secondary-light: #8b5cf6;
   --accent-light: #06b6d4;
@@ -24,8 +23,7 @@
   --shadow-light: 0 20px 40px rgba(0, 0, 0, 0.05);
   --gradient-primary: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
   --gradient-secondary: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
-  
-  /* Dark Theme */
+
   --primary-dark: #818cf8;
   --secondary-dark: #a78bfa;
   --accent-dark: #22d3ee;
@@ -35,7 +33,126 @@
   --text-secondary-dark: #94a3b8;
   --border-dark: #334155;
   --shadow-dark: 0 20px 40px rgba(0, 0, 0, 0.3);
+} */
+
+
+/* orange */
+
+:root {
+  --font-primary: 'Inter', sans-serif;
+  --font-secondary: 'Poppins', sans-serif;
+  
+  --primary-light: #ff3d00;
+  --secondary-light: #00c2a8;
+  --accent-light: #ffb703;
+  --background-light: #f4f1ee;
+  --surface-light: #ffffff;
+  --text-light: #1b1f24;
+  --text-secondary-light: #5f6c7b;
+  --border-light: #dcdcdc;
+  --shadow-light: 0 20px 40px rgba(255, 61, 0, 0.08);
+  --gradient-primary: linear-gradient(135deg, #ff3d00 0%, #ffb703 100%);
+  --gradient-secondary: linear-gradient(135deg, #00c2a8 0%, #3a86ff 100%);
+  
+  --primary-dark: #ff6d00;
+  --secondary-dark: #2dd4bf;
+  --accent-dark: #ffd166;
+  --background-dark: #0f0f14;
+  --surface-dark: #1a1a22;
+  --text-dark: #f5f5f5;
+  --text-secondary-dark: #9ca3af;
+  --border-dark: #2a2a33;
+  --shadow-dark: 0 20px 40px rgba(255, 109, 0, 0.25);
 }
+
+/* pink and purple */
+/* :root {
+  --font-primary: 'Inter', sans-serif;
+  --font-secondary: 'Poppins', sans-serif;
+  
+  --primary-light: #7c3aed;
+  --secondary-light: #db2777;
+  --accent-light: #f59e0b;
+  --background-light: #faf5ff;
+  --surface-light: #ffffff;
+  --text-light: #1e1b4b;
+  --text-secondary-light: #6b7280;
+  --border-light: #e9d5ff;
+  --shadow-light: 0 20px 40px rgba(124, 58, 237, 0.12);
+  --gradient-primary: linear-gradient(135deg, #7c3aed 0%, #db2777 100%);
+  --gradient-secondary: linear-gradient(135deg, #f59e0b 0%, #db2777 100%);
+  
+  --primary-dark: #a78bfa;
+  --secondary-dark: #f472b6;
+  --accent-dark: #fbbf24;
+  --background-dark: #140f2d;
+  --surface-dark: #1f153f;
+  --text-dark: #f9fafb;
+  --text-secondary-dark: #c4b5fd;
+  --border-dark: #2e1a5f;
+  --shadow-dark: 0 20px 40px rgba(124, 58, 237, 0.28);
+} */
+
+
+/* /green blue */
+/* 
+:root {
+  --font-primary: 'Inter', sans-serif;
+  --font-secondary: 'Poppins', sans-serif;
+  
+  --primary-light: #0d9488;
+  --secondary-light: #2563eb;
+  --accent-light: #ca8a04;
+  --background-light: #f0fdfa;
+  --surface-light: #ffffff;
+  --text-light: #0f172a;
+  --text-secondary-light: #475569;
+  --border-light: #99f6e4;
+  --shadow-light: 0 20px 40px rgba(13, 148, 136, 0.12);
+  --gradient-primary: linear-gradient(135deg, #0d9488 0%, #2563eb 100%);
+  --gradient-secondary: linear-gradient(135deg, #ca8a04 0%, #0d9488 100%);
+  
+  --primary-dark: #2dd4bf;
+  --secondary-dark: #60a5fa;
+  --accent-dark: #facc15;
+  --background-dark: #0b1e1c;
+  --surface-dark: #132b29;
+  --text-dark: #f8fafc;
+  --text-secondary-dark: #a5f3fc;
+  --border-dark: #164e63;
+  --shadow-dark: 0 20px 40px rgba(13, 148, 136, 0.3);
+} */
+
+
+/* red inferred */
+/* :root {
+  --font-primary: 'Inter', sans-serif;
+  --font-secondary: 'Poppins', sans-serif;
+  
+  --primary-light: #b91c1c;
+  --secondary-light: #0f172a;
+  --accent-light: #f43f5e;
+  --background-light: #fef2f2;
+  --surface-light: #ffffff;
+  --text-light: #111827;
+  --text-secondary-light: #4b5563;
+  --border-light: #fecdd3;
+  --shadow-light: 0 20px 40px rgba(185, 28, 28, 0.18);
+  --gradient-primary: linear-gradient(135deg, #b91c1c 0%, #f43f5e 100%);
+  --gradient-secondary: linear-gradient(135deg, #0f172a 0%, #b91c1c 100%);
+  
+  --primary-dark: #ff2d2d;
+  --secondary-dark: #111827;
+  --accent-dark: #ff6b6b;
+  --background-dark: #080808;
+  --surface-dark: #151515;
+  --text-dark: #fafafa;
+  --text-secondary-dark: #a1a1aa;
+  --border-dark: #2a2a2a;
+  --shadow-dark: 0 20px 40px rgba(255, 0, 0, 0.4);
+} */
+
+
 
 body {
   font-family: var(--font-primary);
