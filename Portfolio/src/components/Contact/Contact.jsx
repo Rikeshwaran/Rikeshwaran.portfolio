@@ -176,7 +176,7 @@ const Contact = () => {
                 <div className="d-flex align-items-center mb-3">
                   <div className="status-indicator me-3"></div>
                   <div>
-                    <h6 className="fw-semibold mb-0">Currently Available</h6>
+                    <h6 className="fw-semibold mb-0">Currently Available to work</h6>
                     <small className="">Response time: Within 24 hours</small>
                   </div>
                 </div>

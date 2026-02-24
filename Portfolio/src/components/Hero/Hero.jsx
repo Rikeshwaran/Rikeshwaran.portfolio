@@ -26,11 +26,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <h6 className="text-primary mb-3 fw-semibold animate-pulse-slow d-flex ms-5 mb-3 mt-3">
-                <div className="status-indicator ms-4 me-3 mt-2"></div>
-                <h5>Open to work </h5>
-                
-              </h6>
+              
 
 
               <h1 className="display-2 fw-bold mb-4">
@@ -60,11 +56,12 @@ const Hero = () => {
               </div>
 
               <div className="d-flex justify-content-center justify-content-lg-start gap-4 flex-wrap ms-3">
-                <div className="d-flex align-items-center ms-3">
+                <div className="align-items-center ms-3">
                   <div>
                     <h5 className="fw-bold mb-0">1+ Years</h5>
                     <small className="">Experience</small>
                   </div>
+                  
                 </div>
               </div>
             </motion.div>

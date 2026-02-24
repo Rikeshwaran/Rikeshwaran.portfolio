@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import './Projects.css';
 import fakeReviewImg from '../../assets/images/fakereview.jpg';
+import rateMeImage from '../../assets/images/rateme.png';
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -25,6 +26,40 @@ const Projects = () => {
       demo: "#",
       status: "completed"
     },
+    {
+    id: 2,
+    title: "Rate Me – Multi Role Store Rating Platform",
+    category: "web",
+    description: "A full-stack role-based store rating web application where users can rate registered stores between 1 to 5. The system supports three roles (System Admin, Normal User, Store Owner) with a single authentication system and dynamic dashboard rendering based on role permissions.",
+    technologies: [
+      "React",
+      "React Bootstrap",
+      "FastAPI",
+      "Strawberry GraphQL",
+      "SQL (PostgreSQL/MySQL)",
+      "JWT Authentication"
+    ],
+    features: [
+      "Single login system with role-based access control (Admin, User, Store Owner)",
+      "User signup with validation (name, email, password, address)",
+      "Admin dashboard showing total users, total stores, total ratings submitted",
+      "Admin management of users, stores, and roles",
+      "Sortable & filterable tables (name, email, address, role)",
+      "Normal users can search stores by name and address",
+      "Submit and modify store ratings (1–5 scale)",
+      "Store owner dashboard showing average rating and users who rated",
+      "Password change functionality for all roles",
+      "JWT-based secure authentication",
+      "GraphQL API integration using Strawberry",
+      "Relational SQL database with normalized schema design",
+      "Form validations (length checks, password complexity, email validation)",
+      "Responsive UI built with React Bootstrap"
+    ],
+    image: rateMeImage,
+    github: "https://github.com/Rikeshwaran/Rate_me_app.git",
+    demo: "",
+    status: "completed"
+  }
   ];
 
   const categories = [
@@ -239,7 +274,8 @@ const ProjectModal = ({ project, onClose }) => {
               className="btn btn-primary"
             >
               <i className="bi bi-github me-2"></i>
-              View Code (No Access)
+              View Code 
+              
             </motion.a>
             {/* <motion.a
               whileHover={{ scale: 1.05 }}
