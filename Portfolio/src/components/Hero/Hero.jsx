@@ -43,7 +43,7 @@ const Hero = () => {
                   onClick={() => scrollToSection("contact")}
                   className="btn btn-primary btn-lg rounded-pill px-5 py-3"
                 >
-                  <i className="bi bi-rocket-takeoff me-2"></i>Start Project
+                  <i className="bi bi-rocket-takeoff me-2"></i>Hire me
                 </button>
                 <a
                   href={resumePdf}

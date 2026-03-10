@@ -37,7 +37,7 @@
 
 
 /* orange */
-
+/* 
 :root {
   --font-primary: 'Inter', sans-serif;
   --font-secondary: 'Poppins', sans-serif;
@@ -63,7 +63,7 @@
   --text-secondary-dark: #9ca3af;
   --border-dark: #2a2a33;
   --shadow-dark: 0 20px 40px rgba(255, 109, 0, 0.25);
-}
+} */
 
 /* pink and purple */
 /* :root {
@@ -95,7 +95,7 @@
 
 
 /* /green blue */
-/* 
+
 :root {
   --font-primary: 'Inter', sans-serif;
   --font-secondary: 'Poppins', sans-serif;
@@ -121,7 +121,7 @@
   --text-secondary-dark: #a5f3fc;
   --border-dark: #164e63;
   --shadow-dark: 0 20px 40px rgba(13, 148, 136, 0.3);
-} */
+}
 
 
 /* red inferred */
