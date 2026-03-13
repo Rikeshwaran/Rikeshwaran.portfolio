@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 /* blue*/
-/* :root {
+:root {
   --font-primary: 'Inter', sans-serif;
   --font-secondary: 'Poppins', sans-serif;
   
@@ -33,7 +33,7 @@
   --text-secondary-dark: #94a3b8;
   --border-dark: #334155;
   --shadow-dark: 0 20px 40px rgba(0, 0, 0, 0.3);
-} */
+}
 
 
 /* orange */
@@ -95,7 +95,7 @@
 
 
 /* /green blue */
-
+/* 
 :root {
   --font-primary: 'Inter', sans-serif;
   --font-secondary: 'Poppins', sans-serif;
@@ -121,7 +121,7 @@
   --text-secondary-dark: #a5f3fc;
   --border-dark: #164e63;
   --shadow-dark: 0 20px 40px rgba(13, 148, 136, 0.3);
-}
+} */
 
 
 /* red inferred */
