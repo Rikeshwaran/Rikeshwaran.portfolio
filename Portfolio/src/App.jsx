@@ -139,7 +139,6 @@ function App() {
               <p className=" mb-0">
                 &copy; {new Date().getFullYear()}, Rikeshwaran M.
               </p>
-              <p className=" mb-0">Made using React.</p>
             </div>
           </div>
         </div>
