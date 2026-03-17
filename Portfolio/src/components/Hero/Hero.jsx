@@ -1,7 +1,7 @@
 import React from "react";
 import { motion, setTarget } from "framer-motion";
 import "./Hero.css";
-import resumePdf from "../../assets/Resume/resume.pdf";
+import resumeDocx from "../../assets/Resume/resume.docx";
 
 const Hero = () => {
   const scrollToSection = (id) => {
@@ -46,8 +46,8 @@ const Hero = () => {
                   <i className="bi bi-rocket-takeoff me-2"></i>Hire me
                 </button>
                 <a
-                  href={resumePdf}
-                  download="Rikeshwaran_Resume.pdf"
+                  href={resumeDocx}
+                  download="Rikeshwaran_Resume.docx"
                   className="btn btn-outline-primary btn-lg rounded-pill px-5 py-3"
                 >
                   <i className="bi bi-download me-2"></i>Resume
